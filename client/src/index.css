@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://i.etsystatic.com/6788046/r/il/18c42a/1060780724/il_570xN.1060780724_7lxw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:  black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.allcontainer{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Vcontainer{
+  display: flex;
+  width: 80%;
+  height: 200%;
+  margin-top: 5%;
+ padding-right: 11.7%;
+ padding-left: 1.7%;
+}
+
+.VC2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  width: 100%;
+ align-items: center;
+}
+
+
+.SCcontainer{
+  display: flex;
+  position: column ;
+  margin-top: 5%;
+  padding-right: 2%;
+  
+  
+}
+
+.Mcontainer{
+  display: flex;
+  position: column ;
+  margin-top: 5%;
+  padding-left:1%;
+  width: 62.5%;
+}
+
+
+
+.Pbutton{
+  display: flex;
+  position: relative;
+  margin-left: 1%;
+  margin-top: 30%;
+  border-radius: 15px;
+}
+
+
+.block{
+  display: block;
+  
+}
+
+.block2{
+  display: block;
+  width: 70%;
+}
+
+.AB {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 1em;
+}
+
+.AB2 {
+  display: inline;
+  position:relative;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 1.5em;
+  margin-left: 12%;
+}
+
+.AB3 {
+  display: inline;
+  position:relative;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 1.5em;
+  margin-left: 35%;
+}
+
+.AB4 {
+  display: inline;
+  position:relative;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 1.5em;
+  margin-left: 32%;
+}
+
+#vid{
+  background-color:black;
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.ol{
+margin-left: 200%;
+
+}
+
+.ol1{
+  margin-left: 450%;
+  
+  }
+
+.ol2{
+    margin-left: 500%;
+    
+}
+
+.RCG{
+ margin-top: 50%;
+}
+
+.IG{
+  margin-top: 4%;
+  width: 100%;
+  height: 50em;
+  overflow: auto;
+  
+}
+
+.TT{
+  margin-top: 4%;
+  width: 100%;
+  height: 50em;
+  overflow: auto;
+  
+}
+
+button{
+
+  background-color: black;
+  color:whitesmoke ;
+  opacity: .9;
+  border-radius: 25px;
+}
+
+.Mtext{
+  color:yellow;
+  font-size: 3em;
+ 
+}
+
+#lowerlinks:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(243, 72, 4);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#lowerlinks:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+#lowerlink:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 40%;
+  position: absolute;
+  background: rgb(243, 72, 4);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#lowerlink:hover:after { 
+  width: 40%; 
+  left: 0; 
+}
+
+#lowerlink1:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 40%;
+  position: absolute;
+  background: rgb(243, 72, 4);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#lowerlink1:hover:after { 
+  width: 90%; 
+  left: 0; 
+}
+
+#lowerlink2:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 40%;
+  position: absolute;
+  background: rgb(243, 72, 4);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#lowerlink2:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+#Hlink:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 15%;
+  position: absolute;
+  background: rgb(243, 72, 4);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#Hlink:hover:after { 
+  width: 15%; 
+  left: 0; 
+}
+
+
+
