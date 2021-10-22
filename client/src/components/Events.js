@@ -5,8 +5,7 @@ export default function Events() {
     
     return (
         
-          
-<iframe alt="insta" class="IG" src=""  />
+          <div></div>
              
         
     )

@@ -3,11 +3,28 @@ import './SoundCloud';
 import '../index.css';
 import ReactSoundcloud from "./SoundCloud";
 import YouTube from './YouTube';
-import Join from './Join';
-import Chat from './Chat';
-import './Join/Join.css'
-import Nav from "./nav";
 import PayPal from "./PayPal";
+import Button from '@mui/material/Button';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  status: {
+    danger: '#000',
+  },
+  palette: {
+    primary: {
+      main: '#0971f1',
+      darker: '#053e85',
+    },
+    neutral: {
+      main: 'rgb(243, 72, 4)',
+      contrastText: '#fff',
+    },
+  },
+});
+
+
+
 
 
 
@@ -18,13 +35,8 @@ const Home = () => {
 
     return (
         <div>
-            <Nav />
         <div className="allcontainer">
               <div>
-                    <div>
-                        <Join className="JOOC" />
-                        {/* <Chat /> */}
-                    </div>
                 </div>
             <div className="Mcontainer">
                 <div className="block">
@@ -32,6 +44,11 @@ const Home = () => {
                         <h4 className="">MERCH</h4>
                         <p>This section conceptually will contain new or most current Merch </p>
                     </div>
+					<div>
+					<ThemeProvider theme={theme}>
+                    <Button color="neutral" variant="contained" href="https://virtchat.netlify.app/">JOIN VIRTCHAT</Button>
+					</ThemeProvider>	
+                </div>
                 </div>
             </div>
             <div className="Vcontainer">
