@@ -21,6 +21,7 @@ function App() {
   <BrowserRouter>
     <>
       <Navbar />  
+	  <Route  strict path='/'  />
       <Route  strict path='/home' component={Home} />
       <Route strict path='/merch' component={Merch} />
       <Route strict path='/videos' component={Videos} />

@@ -5,8 +5,6 @@ import ReactSoundcloud from "./SoundCloud";
 const Audio = () => {
     return (
         <div className="Acontainer">
-            <h4 className="center">Audio</h4>
-            <p>This page conceptually will contain all audio that is not/could fit on mainpage. Ideally the most recent or new releases would be on the main page </p>
          <div className="Rcontainer">
          <div className="block">
           
