@@ -16,6 +16,16 @@ code {
     monospace;
 }
 
+.nav-top{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-bottom{
+	display: flex;
+	flex-direction: row;
+}
+
 .allcontainer{
   display: flex;
   position: relative;
@@ -65,9 +75,16 @@ code {
   position: relative;
   margin-left: 1%;
   margin-top: 30%;
-  border-radius: 15px;
+  border-radius: 5px 
 }
 
+.chat-btn{
+	display: flex;
+	margin-top: 20%;
+	justify-content: center;
+	width: 25em;
+	height: 5em;
+}
 
 .block{
   display: block;
@@ -81,8 +98,8 @@ code {
 
 .AB {
   font-family: 'Oswald', sans-serif;
-  color: white;
-  font-size: 1em;
+  color: rgb(243, 72, 4);
+  font-size: 1.5em;
 }
 
 .AB2 {
@@ -119,22 +136,32 @@ code {
 }
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 .ol{
-margin-left: 200%;
+	display: inline;
+	position:relative;
+	margin-left: 130%;
+	color: inherit;
+	font-size: 1.5em;
 
 }
 
 .ol1{
-  margin-left: 450%;
-  
+  display: inline;
+  position:relative;
+  margin-left: 175%;
+  color: inherit;
+  font-size: 1.5em;
   }
 
 .ol2{
-    margin-left: 500%;
+	display: inline;
+  position:relative;
+    margin-left: 30%;
+	color: inherit;
+	font-size: 1.5em;
     
 }
 
@@ -163,14 +190,11 @@ button{
   background-color: black;
   color:whitesmoke ;
   opacity: .9;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
-.Mtext{
-  color:yellow;
-  font-size: 3em;
- 
-}
+/* .Mtext{
+} */
 
 #lowerlinks:after {    
   background: none repeat scroll 0 0 transparent;
@@ -202,7 +226,7 @@ button{
   width: 0;
 }
 #lowerlink:hover:after { 
-  width: 40%; 
+  width: 100%; 
   left: 0; 
 }
 
@@ -246,14 +270,14 @@ button{
   content: "";
   display: block;
   height: 2px;
-  left: 15%;
+  left: 50%;
   position: absolute;
   background: rgb(243, 72, 4);
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
 #Hlink:hover:after { 
-  width: 15%; 
+  width: 10%; 
   left: 0; 
 }
 

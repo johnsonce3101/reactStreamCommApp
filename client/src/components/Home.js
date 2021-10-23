@@ -6,6 +6,7 @@ import YouTube from './YouTube';
 import PayPal from "./PayPal";
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import shirt from './shirt.JPEG'
 
 const theme = createTheme({
   status: {
@@ -41,14 +42,15 @@ const Home = () => {
             <div className="Mcontainer">
                 <div className="block">
                     <div className="Mtext">
-                        <h4 className="">MERCH</h4>
-                        <p>This section conceptually will contain new or most current Merch </p>
+                        <img alt="shirt" style={{width:400}} src={shirt} />
                     </div>
+					<div className="chat-btn">
 					<div>
 					<ThemeProvider theme={theme}>
-                    <Button color="neutral" variant="contained" href="https://virtchat.netlify.app/">JOIN VIRTCHAT</Button>
+                    <Button className="chat-btn" color="neutral" variant="contained" href="https://virtchat.netlify.app/">JOIN VIRTCHAT</Button>
 					</ThemeProvider>	
                 </div>
+				</div>
                 </div>
             </div>
             <div className="Vcontainer">
@@ -73,7 +75,7 @@ const Home = () => {
 
                     <ReactSoundcloud />
                     <ReactSoundcloud url="https://soundcloud.com/tn-si/rayne-p2" />
-                    <div>
+                    <div >
                       <PayPal />
                     </div>
                 </div>
